@@ -17,10 +17,11 @@ tests();
 //Some lines were empty and i had to delet them to keep my code clean.
 //Here the fuction was agaian asigned as avariable which is wrong.
 //The cswork was not defined.
-//The 
+//The values of variable were put in the brackets and wrongly placed so i put them the way it has to be
 function add() {
-
-    var answer = cswork + tests(80, 80);
+    var cswork = 80;
+    var tests = 80;
+    var answer = cswork + tests;;
     console.log(answer);
     return answer;
 }
@@ -36,31 +37,31 @@ function div(a) {
     console.log(avg);
     return avg;
 }
-div();
+div(2);
 
 //The function was not called.
 //The console.log was not put.
 function mult(a) {
-    var exm = avg(2) * (a / 100);
+    var exm = avg() * (a / 100);
     console.log(exm);
     return exm;
 }
-mult();
+mult2();
 
 //The console.log was not put.
 //The fucntion was not called.
-function exam(a) {
-    var fexam = (60 / 100) * a;
+function exm(a) {
+    var fexm = (60 / 100) * a;
     console.log(fexam);
     return fexam;
 }
-exam();
+exm(a);
 
 
 //dont see any problem apart from the termination.
 //since is the last function down not need of putting a return statement.
 function fnal() {
-    let fmark = exam(75) + crsmark(40);
+    let fmark = exm(75) + crsmark(40);
     console.log(fmark);
 
 }
